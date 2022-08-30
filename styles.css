@@ -1,0 +1,88 @@
+/* Color palette: https://coolors.co/palette/dad7cd-a3b18a-588157-3a5a40-344e41 */
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: #DAD7CD;
+    color: #344E41;
+}
+
+.header {
+    background: url("images/steyler.jpg");
+    height: 500px;
+    background-size: cover;
+    color: #DAD7CD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-title{
+    background: #344E41;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.header-subtitle {
+    background: #3A5A40;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.activity-section {
+    background: #A3B18A;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.activity {
+    width: 200px;
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.activity-img:hover {
+    background: #DAD7CD;
+    opacity: 0.5;
+}
+
+.guide-card {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
+    background: #A3B18A;
+    padding: 23px 13px;
+    border-radius: 8px;
+    box-shadow: 0px 5px black;
+}
+
+.guide-img {
+    width: 180px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.guide-info {
+    padding-left: 10px;
+    text-align: center;
+}
+
+.map {
+    text-align: center;
+    margin-top: 80px;
+    background: #344E41;
+    color: #DAD7CD;
+    padding: 30px 0;
+}
